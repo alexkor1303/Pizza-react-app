@@ -19,6 +19,7 @@ function Categories() {
         {categories.map((name, i) => {
           return (
             <li
+              key={i}
               onClick={() => onClickCategory(i)}
               className={activeIndex === i ? "active" : ""}
             >
@@ -26,12 +27,6 @@ function Categories() {
             </li>
           );
         })}
-        {/* <li
-          onClick={() => onClickCategory(5)}
-          className={activeIndex === 5 ? "active" : ""}
-        >
-          Закрытые
-        </li> */}
       </ul>
     </div>
   );

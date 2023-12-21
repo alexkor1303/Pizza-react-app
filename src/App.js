@@ -5,7 +5,7 @@ import Categories from "./components/Categories";
 import PizzaBlock from "./components/Pizzablock";
 import React from "react";
 import Pizzas from "./assets/pizzas.json";
-console.log(Pizzas);
+ 
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
             <div className="content__items">
               {Pizzas.map((obj) => (
                 <PizzaBlock
+                  key={obj.id}
                   title={obj.title}
                   price={obj.price}
                   imageUrl={obj.imageUrl}
