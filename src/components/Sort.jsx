@@ -3,10 +3,12 @@ import React from "react";
 function Sort() {
   const [open, setOpen] = React.useState(false);
   const [selected, setSelected] = React.useState(0);
+
   const onCLickListItem = (index) => {
     setSelected(index);
     setOpen(!open);
   };
+
   const list = ["популярности", "цене", "алфовиту"];
   const sortName = list[selected];
   return (
