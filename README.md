@@ -1,3 +1,21 @@
+# Приложение не развернуто на GH-PAGES
+## посмотреть видео работы приложения можно по ссылке :
+### https://disk.yandex.ru/i/8Zh8WhwY9dUZWQ
+
+
+
+
+
+
+
+
+
+
+
+#
+#
+#
+#
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
